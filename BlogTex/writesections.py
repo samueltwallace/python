@@ -2,7 +2,7 @@ import feedparser
 import sqlite3
 import sys
 import re
-from  TexWriter import *
+from  TeXWriter import *
 
 # Short function to make easy names from urls
 def createShortName(urlString):

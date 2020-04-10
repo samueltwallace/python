@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.27)  9 APR 2020 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.27)  10 APR 2020 15:33
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -328,8 +329,329 @@ put line 308.
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks23
 \dt@b=\toks24
+)
+(/home/swallace6859/texmf/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen125
+\pgfutil@tempdimb=\dimen126
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(./main.aux)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen129
+\pgf@y=\dimen130
+\pgf@xa=\dimen131
+\pgf@ya=\dimen132
+\pgf@xb=\dimen133
+\pgf@yb=\dimen134
+\pgf@xc=\dimen135
+\pgf@yc=\dimen136
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count140
+\c@pgf@countb=\count141
+\c@pgf@countc=\count142
+\c@pgf@countd=\count143
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count144
+\pgfsyssoftpath@bigbuffer@items=\count145
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen137
+\pgfmath@count=\count146
+\pgfmath@box=\box29
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count147
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen138
+\pgf@picmaxx=\dimen139
+\pgf@picminy=\dimen140
+\pgf@picmaxy=\dimen141
+\pgf@pathminx=\dimen142
+\pgf@pathmaxx=\dimen143
+\pgf@pathminy=\dimen144
+\pgf@pathmaxy=\dimen145
+\pgf@xx=\dimen146
+\pgf@xy=\dimen147
+\pgf@yx=\dimen148
+\pgf@yy=\dimen149
+\pgf@zx=\dimen150
+\pgf@zy=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen152
+\pgf@path@lasty=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen154
+\pgf@shorten@start@additional=\dimen155
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count148
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen157
+\pgf@pt@y=\dimen158
+\pgf@pt@temp=\dimen159
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen160
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen161
+\pgf@sys@shading@range@num=\count149
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box33
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box34
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen162
+\pgf@nodesepend=\dimen163
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen164
+\pgffor@skip=\dimen165
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count150
+\pgfplotmarksize=\dimen166
+)
+\tikz@lastx=\dimen167
+\tikz@lasty=\dimen168
+\tikz@lastxsaved=\dimen169
+\tikz@lastysaved=\dimen170
+\tikzleveldistance=\dimen171
+\tikzsiblingdistance=\dimen172
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count151
+\tikznumberofchildren=\count152
+\tikznumberofcurrentchild=\count153
+\tikz@fig@count=\count154
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count155
+\pgfmatrixcurrentcolumn=\count156
+\pgf@matrix@numberofcolumns=\count157
+)
+\tikz@expandcount=\count158
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\c@@todonotes@numberoftodonotes=\count159
+)
+
+./blogTemplate.cls:39: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \newenvironment{x
+                      mlfeedlinks}{\todo{}{}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -346,7 +668,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
-\AtBeginShipoutBox=\box28
+\AtBeginShipoutBox=\box39
 Package hyperref Info: Link coloring OFF on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -354,48 +676,34 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count140
+\c@section@level=\count160
 )
 LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
 (./main.out) (./main.out)
-\@outlinefile=\write3
-\openout3 = `main.out'.
+\@outlinefile=\write4
+\openout4 = `main.out'.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/home/swallace6859/texmf/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen125
-\scratchbox=\box29
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen126
-\MPnumerator=\count145
-\makeMPintoPDFobject=\count146
-\everyMPtoPDFconversion=\toks26
-))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\scratchcounter=\count161
+\scratchdimen=\dimen173
+\scratchbox=\box40
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen174
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -412,15 +720,11 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\Gin@req@height=\dimen127
-\Gin@req@width=\dimen128
-)
-(/home/swallace6859/texmf/tex/latex/fmtcount/fc-english.def
-File: fc-english.def 2016/01/12
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+ABD: EveryShipout initializing macros [1
 
-(/home/swallace6859/texmf/tex/latex/amsfonts/umsa.fd
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+ (/home/swallace6859/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 11.
@@ -433,633 +737,780 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 11.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) (./main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 
 (./files/slatestarcodex.tex
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...ery year, I score them (this year I&
-                                                  ##8217;m very late). Here ...
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...y year, I score them (this year I&##
-                                                  8217;m very late). Here ar...
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...e the predictions I made for 2019. &
-                                                  ##8230; <a href="https://s...
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...the predictions I made for 2019. &##
-                                                  8230; <a href="https://sla...
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.3 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
+./files/slatestarcodex.tex:5: Undefined control sequence.
+l.5 \xmltitledetailtype
+                       {text/plain}\xmltitledetailbase{https://slatestarcode...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (65.65282pt too wide) in paragraph at lines 3--5
-\OT1/cmr/m/it/10 href="https://slatestarcodex.com/2020/04/08/2019-predictions-c
-alibration-results/">Continue
+./files/slatestarcodex.tex:5: Undefined control sequence.
+l.5 ...ledetailtype{text/plain}\xmltitledetailbase
+                                                  {https://slatestarcodex.co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:5: Undefined control sequence.
+l.5 ...atestarcodex.com/feed/}\xmltitledetailvalue
+                                                  {Slate Star Codex}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:6: Missing \endcsname inserted.
+<to be read again> 
+                   \def 
+l.6 \end{xmlfeedtitledetail}
+                            
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./files/slatestarcodex.tex:6: Missing \endcsname inserted.
+<to be read again> 
+                   \def 
+l.6 \end{xmlfeedtitledetail}
+                            
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./files/slatestarcodex.tex:6: Extra \fi.
+<argument> ...vir \else \@badend {\endcsname }\fi 
+                                                  [
+l.6 \end{xmlfeedtitledetail}
+                            
+I'm ignoring this; it doesn't match any \if.
+
+./files/slatestarcodex.tex:6: Missing \endcsname inserted.
+<to be read again> 
+                   \def 
+l.6 \end{xmlfeedtitledetail}
+                            
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+./files/slatestarcodex.tex:6: LaTeX Error: \begin{xmlfeedtitledetail} on input 
+line 4 ended by \end{\endcsname }.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \end{xmlfeedtitledetail}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:9: Undefined control sequence.
+l.9 ...tps://slatestarcodex.com/feed/}\xmllinksrel
+                                                  {self}\xmllinkstype{applic...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:9: Undefined control sequence.
+l.9 ...x.com/feed/}\xmllinksrel{self}\xmllinkstype
+                                                  {application/rss+xml}\xmll...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:9: Undefined control sequence.
+l.9 ...llinkstype{application/rss+xml}\xmllinksrel
+                                                  {alternate}\xmllinkstype{t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:9: Undefined control sequence.
+l.9 ...ss+xml}\xmllinksrel{alternate}\xmllinkstype
+                                                  {text/html}\xmllinkshref{h...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:11: Undefined control sequence.
+<recently read> \xmlfeedsubtitle 
+                                 
+l.11 ...ttps://slatestarcodex.com}\xmlfeedsubtitle
+                                                  {SELF-RECOMMENDING!}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:12: LaTeX Error: Environment xmlfeedsubtitledetail u
+ndefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \begin{xmlfeedsubtitledetail}
+                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:13: Undefined control sequence.
+l.13 \xmlsubtitledetailtype
+                           {text/html}\xmlsubtitledetailbase{https://slatest...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:13: Undefined control sequence.
+l.13 ...etailtype{text/html}\xmlsubtitledetailbase
+                                                  {https://slatestarcodex.co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:13: Undefined control sequence.
+l.13 ...tarcodex.com/feed/}\xmlsubtitledetailvalue
+                                                  {SELF-RECOMMENDING!}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:14: LaTeX Error: \begin{xmlfeed} on input line 2 end
+ed by \end{xmlfeedsubtitledetail}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \end{xmlfeedsubtitledetail}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:15: Undefined control sequence.
+<recently read> \xmlfeedlanguage 
+                                 
+l.15 ...0 Apr 2020 15:46:25 +0000}\xmlfeedlanguage
+                                                  {en-US}\xmlfeedsyupdateper...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:15: Undefined control sequence.
+l.15 ...lfeedlanguage{en-US}\xmlfeedsyupdateperiod
+                                                  {hourly}\xmlfeedsyupdatefr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:15: Undefined control sequence.
+l.15 ...ateperiod{hourly}\xmlfeedsyupdatefrequency
+                                                  {1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:16: LaTeX Error: Environment xmlfeedgeneratordetail 
+undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \begin{xmlfeedgeneratordetail}
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:17: Undefined control sequence.
+l.17 \xmlgeneratordetailname
+                            {https://wordpress.org/?v=5.3.2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:18: LaTeX Error: \begin{xmlfeed} on input line 2 end
+ed by \end{xmlfeedgeneratordetail}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \end{xmlfeedgeneratordetail}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:19: Undefined control sequence.
+l.19 \xmlfeedgenerator
+                      {https://wordpress.org/?v=5.3.2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.52852pt too wide) in paragraph at lines 9--21
+\OT1/cmr/m/n/10 en-UShourly1  https://wordpress.org/?v=5.3.2  https://wordpress
+.org/?v=5.3.2
  []
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...ost that seems to have disappeared &
-                                                  ##8211; let me know if it&...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...t that seems to have disappeared &##
-                                                  8211; let me know if it&##...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...appeared &##8211; let me know if it&
-                                                  ##8217;s yours and I&##821...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...peared &##8211; let me know if it&##
-                                                  8217;s yours and I&##8217;...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ... me know if it&##8217;s yours and I&
-                                                  ##8217;ll give you credit]...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...e know if it&##8217;s yours and I&##
-                                                  8217;ll give you credit] I...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...#8217;ll give you credit] I almost &
-                                                  ##8230; <a href="https://s...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...217;ll give you credit] I almost &##
-                                                  8230; <a href="https://sla...
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.6 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.9 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.9 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...r At DArmstadt). But the latest in &
-                                                  ##8230; <a href="https://s...
-l.9 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...At DArmstadt). But the latest in &##
-                                                  8230; <a href="https://sla...
-l.9 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.9 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.9 ...an class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
 
-Overfull \hbox (83.66396pt too wide) in paragraph at lines 9--11
-\OT1/cmr/m/it/10 world-depression-measurement/">Continue read-ing <span class="
-pjgm-metanav">8594;</span></a>
- []
+./files/slatestarcodex.tex:22: LaTeX Error: Environment xmlentries undefined.
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.12 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.12 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ... you want, but please try to avoid &
-                                                  ##8230; <a href="https://s...
-l.12 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ou want, but please try to avoid &##
-                                                  8230; <a href="https://sla...
-l.12 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.12 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.12 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{xmlentries}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Overfull \hbox (147.05869pt too wide) in paragraph at lines 12--14
-\OT1/cmr/m/it/10 Post about any-thing you want, but please try to avoid 8230; <
-a href="https://slatestarcodex.com/2020/04/05/open-
- []
 
-[1
+./files/slatestarcodex.tex:24: LaTeX Error: Environment xmlentriestitledetail u
+ndefined.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ... they punish only with ridicule. It&
-                                                  ##8217;s the true prophets...
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...hey punish only with ridicule. It&##
-                                                  8217;s the true prophets w...
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...y to make their words come true in &
-                                                  ##8230; <a href="https://s...
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...to make their words come true in &##
-                                                  8230; <a href="https://sla...
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.15 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \begin{xmlentriestitledetail}
+                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Overfull \hbox (21.31412pt too wide) in paragraph at lines 15--17
-\OT1/cmr/m/it/10 href="https://slatestarcodex.com/2020/04/01/book-review-the-pr
-ecipice/">Continue
- []
+./files/slatestarcodex.tex:25: Undefined control sequence.
+l.25 \xmltitledetailtype
+                        {text/plain}\xmltitledetailbase{https://slatestarcod...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...eople care about a lot right now. I&
-                                                  ##8217;m not confident in ...
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ple care about a lot right now. I&##
-                                                  8217;m not confident in my...
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...y answers about how to proceed. If &
-                                                  ##8230; <a href="https://s...
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...answers about how to proceed. If &##
-                                                  8230; <a href="https://sla...
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.18 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
+./files/slatestarcodex.tex:25: Undefined control sequence.
+l.25 ...edetailtype{text/plain}\xmltitledetailbase
+                                                  {https://slatestarcodex.co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (16.1698pt too wide) in paragraph at lines 18--20
-\OT1/cmr/m/it/10 href="https://slatestarcodex.com/2020/03/31/ssc-journal-club-m
-acintyre-on-cloth-
- []
+./files/slatestarcodex.tex:25: Undefined control sequence.
+l.25 ...testarcodex.com/feed/}\xmltitledetailvalue
+                                                  {Coronalinks 4/10: Second ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.21 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.21 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ... and river has its own spirit. And &
-                                                  ##8230; <a href="https://s...
-l.21 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...nd river has its own spirit. And &##
-                                                  8230; <a href="https://sla...
-l.21 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.21 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.21 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
 
-Overfull \hbox (38.14182pt too wide) in paragraph at lines 21--23
-\OT1/cmr/m/it/10 different-from-ours-because-i-just-made-them-up/">Continue rea
-d-ing <span class="pjgm-
- []
+./files/slatestarcodex.tex:26: LaTeX Error: \begin{document} ended by \end{xmle
+ntriestitledetail}.
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...ally be a hidden open thread, but I&
-                                                  ##8217;m promoting it to f...
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ly be a hidden open thread, but I&##
-                                                  8217;m promoting it to fro...
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...e for hospitals, policymakers, and &
-                                                  ##8230; <a href="https://s...
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...for hospitals, policymakers, and &##
-                                                  8230; <a href="https://sla...
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.24 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{xmlentriestitledetail}
+                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Overfull \hbox (4.95337pt too wide) in paragraph at lines 24--26
-\OT1/cmr/m/it/10 thread-150-5/">Continue read-ing <span class="pjgm-metanav">85
-94;</span></a>
+
+./files/slatestarcodex.tex:28: LaTeX Error: Environment xmlentrieslinks undefin
+ed.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \begin{xmlentrieslinks}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:29: Undefined control sequence.
+l.29 \xmllinksrel
+                 {alternate}\xmllinkstype{text/html}\xmllinkshref{https://sl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:29: Undefined control sequence.
+l.29 \xmllinksrel{alternate}\xmllinkstype
+                                         {text/html}\xmllinkshref{https://sl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:30: LaTeX Error: \begin{document} ended by \end{xmle
+ntrieslinks}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \end{xmlentrieslinks}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:31: Illegal parameter number in definition of \Hy@te
+mpa.
+<to be read again> 
+                   c
+l.31 ...onalinks-4-10-second-derivative/#comments}
+                                                  \xmlentriespublished{Fri, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:31: Illegal parameter number in definition of \Hy@te
+mpa.
+<to be read again> 
+                   c
+l.31 ...onalinks-4-10-second-derivative/#comments}
+                                                  \xmlentriespublished{Fri, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:31: Illegal parameter number in definition of \Hy@te
+mpa.
+<to be read again> 
+                   c
+l.31 ...onalinks-4-10-second-derivative/#comments}
+                                                  \xmlentriespublished{Fri, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+./files/slatestarcodex.tex:32: LaTeX Error: Environment xmlentriesauthors undef
+ined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \begin{xmlentriesauthors}
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:33: Undefined control sequence.
+l.33 \xmlauthorsname
+                    {Scott Alexander}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:34: LaTeX Error: \begin{document} ended by \end{xmle
+ntriesauthors}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{xmlentriesauthors}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./files/slatestarcodex.tex:36: LaTeX Error: Environment xmlentriesauthordetail 
+undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \begin{xmlentriesauthordetail}
+                                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:37: Undefined control sequence.
+l.37 \xmlauthordetailname
+                         {Scott Alexander}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:38: LaTeX Error: \begin{document} ended by \end{xmle
+ntriesauthordetail}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \end{xmlentriesauthordetail}
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./files/slatestarcodex.tex:40: LaTeX Error: Environment xmlentriestags undefine
+d.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{xmlentriestags}
+                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:41: Undefined control sequence.
+l.41 \xmltagsterm
+                 {Uncategorized}\xmltagsterm{coronavirus}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:41: Undefined control sequence.
+l.41 \xmltagsterm{Uncategorized}\xmltagsterm
+                                            {coronavirus}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./files/slatestarcodex.tex:42: LaTeX Error: \begin{document} ended by \end{xmle
+ntriestags}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \end{xmlentriestags}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:43: Undefined control sequence.
+l.43 \xmlentriesid
+                  {https://slatestarcodex.com/?p=5930}\xmlentriessummary{The...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no â in font cmti12!
+Missing character: There is no € in font cmti12!
+Missing character: There is no ¦ in font cmti12!
+
+./files/slatestarcodex.tex:43: LaTeX Error: Command \https://slatestarcodex.com
+/2020/04/10/coronalinks-4-10-second-derivative/ unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...ontinue reading \span{pjgm-metanav}{â†’}}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:43: Misplaced \span.
+<argument> ...derivative/}{Continue reading \span 
+                                                  {pjgm-metanav}{â†’}}
+l.43 ...ontinue reading \span{pjgm-metanav}{â†’}}}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no â in font cmti12!
+Missing character: There is no † in font cmti12!
+Missing character: There is no ’ in font cmti12!
+
+./files/slatestarcodex.tex:44: LaTeX Error: Environment xmlentriessummarydetail
+ undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \begin{xmlentriessummarydetail}
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:45: Undefined control sequence.
+l.45 \xmlsummarydetailtype
+                          {text/html}\xmlsummarydetailbase{https://slatestar...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:45: Undefined control sequence.
+l.45 ...detailtype{text/html}\xmlsummarydetailbase
+                                                  {https://slatestarcodex.co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:45: Undefined control sequence.
+l.45 ...starcodex.com/feed/}\xmlsummarydetailvalue
+                                                  {The second derivative is ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¦ in font cmr12!
+
+./files/slatestarcodex.tex:45: LaTeX Error: Command \https://slatestarcodex.com
+/2020/04/10/coronalinks-4-10-second-derivative/ unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...04/10/coronalinks-4-10-second-derivative/}
+                                                  {Continue reading \span{pj...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:45: Misplaced \span.
+l.45 ...second-derivative/}{Continue reading \span
+                                                  {pjgm-metanav}{â†’}}}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ’ in font cmr12!
+
+./files/slatestarcodex.tex:46: LaTeX Error: \begin{document} ended by \end{xmle
+ntriessummarydetail}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \end{xmlentriessummarydetail}
+                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (3.07889pt too wide) in paragraph at lines 41--47
+[]\OT1/cmr/m/n/10 Uncategorizedcoronavirus  https://slatestarcodex.com/?p=5930\
+OT1/cmr/m/it/12 The sec-ond
  []
 
 [2]
-Missing character: There is no â in font cmbx12!
-Missing character: There is no € in font cmbx12!
-Missing character: There is no ™ in font cmbx12!
 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.27 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.27 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...es. Everything here is speculative &
-                                                  ##8230; <a href="https://s...
-l.27 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> .... Everything here is speculative &##
-                                                  8230; <a href="https://sla...
-l.27 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.27 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.27 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   8
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument>  \indent There&
-                          ##8217;s been recent controversy about the use of ...
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument>  \indent There&##
-                            8217;s been recent controversy about the use of ...
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...y useless and not recommended. They&
-                                                  ##8217;ve recently been ch...
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...useless and not recommended. They&##
-                                                  8217;ve recently been chal...
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...allenged, for example by Professor &
-                                                  ##8230; <a href="https://s...
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...lenged, for example by Professor &##
-                                                  8230; <a href="https://sla...
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! Misplaced alignment tab character &.
-<argument> ...reading <span class="pjgm-metanav">&
-                                                  ##8594;</span></a>
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
-! You can't use `macro parameter character #' in horizontal mode.
-<argument> ...ading <span class="pjgm-metanav">&##
-                                                  8594;</span></a>
-l.30 ...n class="pjgm-metanav">&#8594;</span></a>}
-                                                   \smallskip
-? 
+./files/slatestarcodex.tex:48: LaTeX Error: Environment xmlentriescontent undef
+ined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \begin{xmlentriescontent}
+                              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:49: Undefined control sequence.
+l.49 \xmlcontenttype
+                    {text/html}\xmlcontentbase{https://slatestarcodex.com/fe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:49: Undefined control sequence.
+l.49 \xmlcontenttype{text/html}\xmlcontentbase
+                                              {https://slatestarcodex.com/fe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./files/slatestarcodex.tex:49: Undefined control sequence.
+l.49 .../slatestarcodex.com/feed/}\xmlcontentvalue
+                                                  {\p{The second derivative ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+./files/slatestarcodex.tex:49: LaTeX Error: Command \https://ourworldindata.org
+/coronavirus unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 ...ourworldindata.org/coronavirus}{source}).}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 )
-Overfull \hbox (123.33095pt too wide) in paragraph at lines 30--14
-\OT1/cmr/m/it/10 cently been chal-lenged, for ex-am-ple by Pro-fes-sor 8230; <a
- href="https://slatestarcodex.com/2020/03/23/face-
+Runaway argument?
+{\center {\img {http://slatestarcodex.com/blog_images/derivative1.png\ETC.
+./main.tex:13: File ended while scanning use of \p.
+<inserted text> 
+                \par 
+l.13 \import{files/}{slatestarcodex.tex}
+                                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+
+Overfull \hbox (0.22311pt too wide) in paragraph at lines 49--14
+[]\OT1/cmr/m/n/12 text/htmlhttps://slatestarcodex.com/feed/[]The sec-ond deriva
+-
  []
 
 
-Overfull \hbox (20.25316pt too wide) in paragraph at lines 30--14
-\OT1/cmr/m/it/10 masks-much-more-than-you-wanted-to-know/">Continue read-ing <s
-pan class="pjgm-
+Underfull \hbox (badness 10000) in paragraph at lines 49--14
+
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 17.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 17.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 17.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 17.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 17.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  D703FE45E52C58E4E32A0FF5D8377525;904.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B8011E799FC444FC9B10F8814C14522A;135.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 17.
- ) 
+ )
+(\end occurred inside a group at level 3)
+
+### simple group (level 3) entered at line 49 ({)
+### semi simple group (level 2) entered at line 48 (\begingroup)
+### semi simple group (level 1) entered at line 22 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 7851 strings out of 494415
- 113629 string characters out of 6170237
- 212899 words of memory out of 5000000
- 11183 multiletter control sequences out of 15000+600000
- 10336 words of font info for 40 fonts, out of 8000000 for 9000
+ 17967 strings out of 494415
+ 330814 string characters out of 6170237
+ 546641 words of memory out of 5000000
+ 21086 multiletter control sequences out of 15000+600000
+ 13829 words of font info for 55 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 43i,10n,45p,1047b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/sw
-allace6859/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/swallace6859/t
-exmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/swallace6859/texmf/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></home/swallace6859/texmf/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/c
-mti10.pfb>
-Output written on main.pdf (3 pages, 92303 bytes).
+ 69i,11n,58p,1830b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home
+/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/swallace685
+9/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/swallace6859/texmf/font
+s/type1/public/amsfonts/cm/cmr17.pfb></home/swallace6859/texmf/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/c
+m/cmti12.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmti9.pfb
+>
+Output written on main.pdf (3 pages, 103234 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
