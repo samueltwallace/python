@@ -33,7 +33,9 @@ def WriteTeX(page,prefix):
     bigString = ''
     for key in page.keys():
         if type(page[key]) == str:
-            bigString += '\\xml' + prefix +  cleanKey(key) + '{' + page[key] + '}'
+            p = parser()
+            p.feed(page[key])
+            bigString += '\\xml' + prefix +  cleanKey(key) + '{' + p.parsed() + '}'
         if type(page[key]) == feedparser.FeedParserDict:
             bigString += '\n\\begin{xml' + prefix + cleanKey(key) + '}\n'
             bigString += WriteTeX(page[key],cleanKey(key))
@@ -50,13 +52,27 @@ def writePackage():
     wholeTeX = ''
     for TeXFile in list(Path('./files/').glob('**/*.tex')):
         wholeTeX += open(str(TeXFile),'r',encoding='UTF-8').read()
-    cmds = re.findall('\\\\(?P<cmd>xml\w+)(\{.*?\})+',wholeTeX)
-    cmds = list(set(cmds))
-    nargs = []
-    for cmd in cmds:
-        nargs.append(len(cmd) - 1)
+    cmds = re.findall('\\\\(?P<cmd>\w+)(\{.*?\})+',wholeTeX)
+    cmdnames = [cmd[0] for cmd in cmds]
+    cmdnames = list(set(cmdnames))
+    nargs = {cmds[0] : int(len(cmds[0])-1)}
+    for cmdname in cmdnames:
+        for cmd in cmds:
+            if cmdname == cmd[0]:
+                nargs[cmdname] = int(len(cmd) - 1)
 
-    for i in range(len(cmds)):
-        finalString += '\\newcommand{\\' + cmds[i][0] + '}[' + str(nargs[i]) + ']{}\n\n'
 
+    print(nargs)
+    for cmd in nargs.keys():
+        if cmd == 'begin':
+            pass
+        elif cmd == 'end':
+            pass
+        else:
+            finalString += '\\newcommand{\\' + cmd + '}[' + str(nargs[cmd]) + ']{\\ignorespaces}\n\n'
+
+    envs = re.findall(r'\\begin\{(?P<env>\w+)\}',wholeTeX)
+    envs = list(set(envs))
+    for env in envs:
+        finalString += '\\newenvironment{' + env  +'}{}{}\n\n'
     return finalString
