@@ -16,13 +16,20 @@ d = data.cursor()
 d.execute('SELECT url FROM urls;')
 links = d.fetchall()
 
-pages = []
-# collect page objects
-for link in links:
-    pages.append(feedparser.parse(link[0]))
+def makeSections():
+    pages = []
+    # collect page objects
+    for link in links:
+        pages.append(feedparser.parse(link[0]))
 
-for page in pages:
-    currentTeX = open("files/" + createShortName(page.feed.link) + ".tex", "w", encoding="utf-8")
-    currentTeX.write(WriteTeX(page,''))
-    currentTeX.close()
 
+    for page in pages:
+        currentTeX = open("files/" + createShortName(page.feed.link) + ".tex", "w", encoding="utf-8")
+        currentTeX.write(WriteTeX(page,''))
+        currentTeX.close()
+
+def makePackage():
+    f = open('files/xml.sty','w',encoding='UTF-8')
+    f.write('\\NeedsTeXFormat{LaTeX2e}\n\\ProvidesPackage{xml}\n\n')
+    f.write(writePackage())
+    f.close()
