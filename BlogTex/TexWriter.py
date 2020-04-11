@@ -50,11 +50,13 @@ def writePackage():
     wholeTeX = ''
     for TeXFile in list(Path('./files/').glob('**/*.tex')):
         wholeTeX += open(str(TeXFile),'r',encoding='UTF-8').read()
-    cmds = re.findall('\\\\(?P<cmd>\w+)(\{.*?\})+',wholeTeX)
-    cmds = list(dict.fromkeys(cmds))
+    cmds = re.findall('\\\\(?P<cmd>xml\w+)(\{.*?\})+',wholeTeX)
+    cmds = list(set(cmds))
     nargs = []
     for cmd in cmds:
         nargs.append(len(cmd) - 1)
+
     for i in range(len(cmds)):
         finalString += '\\newcommand{\\' + cmds[i][0] + '}[' + str(nargs[i]) + ']{}\n\n'
+
     return finalString
