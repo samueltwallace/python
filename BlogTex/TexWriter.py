@@ -10,21 +10,26 @@ class parser(HTMLParser):
         self.headerFile = open('files/xml.sty','a',encoding='UTF-8')
         self.tags = []
         self.inTag = False
+        self.reg1 = re.compile(r'\%')
+        self.reg2 = re.compile(r'\$')
+
+    def escape(self,string):
+        string = self.reg1.sub(r'\%',string)
+        string = self.reg2.sub(r'\\$', string)
+        return string
 
     def handle_starttag(self,tag, attrs):
+        tag = self.escape(tag)
         string = '\\' + tag
         self.tags.append(tag)
         for attr in attrs:
-            if len(attrs) > 1:
-            string += '{' + attr[1] + '}'
+            string += '{' + self.escape(attr[1]) + '}'
         self.output += string
         self.inTag = True
     def handle_endtag(self,tag):
         self.inTag = False
     def handle_data(self,data):
-        data = re.sub(r'%','\\\\%',data)
-        data = re.sub('\$','\\\$',data)
-        
+        data = self.escape(data)
         if self.inTag:
             self.output +=  '{' + data + '}'
         else:
@@ -67,8 +72,6 @@ def writePackage():
     for cmdname in cmdnames:
         for cmd in cmds:
             if cmdname == cmd[0]:
-                if len(cmd) != 2:
-                    print('found one!')
                 nargs[cmdname] = int(len(cmd) - 1)
 
 
