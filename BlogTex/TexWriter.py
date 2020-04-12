@@ -7,8 +7,6 @@ class parser(HTMLParser):
     def __init__(self, *args, **kwargs):
         HTMLParser.__init__(self)
         self.output = ''
-        self.headerFile = open('files/xml.sty','a',encoding='UTF-8')
-        self.tags = []
         self.inTag = False
         self.reg1 = re.compile(r'\%')
         self.reg2 = re.compile(r'\$')
@@ -20,8 +18,7 @@ class parser(HTMLParser):
 
     def handle_starttag(self,tag, attrs):
         tag = self.escape(tag)
-        string = '\\' + tag
-        self.tags.append(tag)
+        string = ' \\html' + tag
         for attr in attrs:
             string += '{' + self.escape(attr[1]) + '}'
         self.output += string
@@ -35,8 +32,6 @@ class parser(HTMLParser):
         else:
             self.output += data
     def parsed(self):
-        for tag in self.tags:
-            self.headerFile.write('\\newcommand{\\' + tag + '}{}\n')
         return self.output
 
 def cleanKey(string):
@@ -65,23 +60,14 @@ def writePackage():
     wholeTeX = ''
     for TeXFile in list(Path('./files/').glob('**/*.tex')):
         wholeTeX += open(str(TeXFile),'r',encoding='UTF-8').read()
-    cmds = re.findall('\\\\(?P<cmd>\w+)(\{.*?\})+',wholeTeX)
-    cmdnames = [cmd[0] for cmd in cmds]
-    cmdnames = list(set(cmdnames))
-    nargs = {"" : ""}
-    for cmdname in cmdnames:
-        for cmd in cmds:
-            if cmdname == cmd[0]:
-                nargs[cmdname] = int(len(cmd) - 1)
-
-
+    cmds = re.findall('\\\\(?P<cmd>(?:xml|html)\w+)((?:\{.*?\})*)',wholeTeX)
+    finder = re.compile('\{.*?\}')
+    nargs = {cmd[0]:len(finder.findall(cmd[1])) for cmd in cmds}
     for cmd in nargs.keys():
-        if cmd == 'begin':
-            pass
-        elif cmd == 'end':
-            pass
-        else:
+        if nargs[cmd] != 0:
             finalString += '\\newcommand{\\' + cmd + '}[' + str(nargs[cmd]) + ']{\\ignorespaces}\n\n'
+        else:
+            finalString += '\\newcommand{\\' + cmd + '}{\\ignorespaces}\n\n'
 
     envs = re.findall(r'\\begin\{(?P<env>\w+)\}',wholeTeX)
     envs = list(set(envs))

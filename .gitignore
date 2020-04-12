@@ -2,4 +2,4 @@
 *.flg
 *.aux
 *.toc
-__pycache__
+__pycache__/
