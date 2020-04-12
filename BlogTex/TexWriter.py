@@ -9,18 +9,26 @@ class parser(HTMLParser):
         self.output = ''
         self.headerFile = open('files/xml.sty','a',encoding='UTF-8')
         self.tags = []
+        self.inTag = False
 
     def handle_starttag(self,tag, attrs):
         string = '\\' + tag
         self.tags.append(tag)
         for attr in attrs:
+            if len(attrs) > 1:
             string += '{' + attr[1] + '}'
-        string += '{'
         self.output += string
+        self.inTag = True
     def handle_endtag(self,tag):
-        self.output +=  '}'
+        self.inTag = False
     def handle_data(self,data):
-        self.output +=  data
+        data = re.sub(r'%','\\\\%',data)
+        data = re.sub('\$','\\\$',data)
+        
+        if self.inTag:
+            self.output +=  '{' + data + '}'
+        else:
+            self.output += data
     def parsed(self):
         for tag in self.tags:
             self.headerFile.write('\\newcommand{\\' + tag + '}{}\n')
@@ -55,14 +63,15 @@ def writePackage():
     cmds = re.findall('\\\\(?P<cmd>\w+)(\{.*?\})+',wholeTeX)
     cmdnames = [cmd[0] for cmd in cmds]
     cmdnames = list(set(cmdnames))
-    nargs = {cmds[0] : int(len(cmds[0])-1)}
+    nargs = {"" : ""}
     for cmdname in cmdnames:
         for cmd in cmds:
             if cmdname == cmd[0]:
+                if len(cmd) != 2:
+                    print('found one!')
                 nargs[cmdname] = int(len(cmd) - 1)
 
 
-    print(nargs)
     for cmd in nargs.keys():
         if cmd == 'begin':
             pass

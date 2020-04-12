@@ -1,0 +1,5 @@
+*.out
+*.flg
+*.aux
+*.toc
+__pycache__
