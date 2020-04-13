@@ -24,12 +24,12 @@ def makeSections():
 
 
     for page in pages:
-        currentTeX = open("files/" + createShortName(page.feed.link) + ".tex", "w", encoding="utf-8")
+        currentTeX = open("files/" + createShortName(page.feed.link) + ".sectex", "w", encoding="utf-8")
         currentTeX.write(WriteTeX(page,''))
         currentTeX.close()
 
 def makePackage():
     f = open('files/xml.sty','w',encoding='UTF-8')
-    f.write('\\NeedsTeXFormat{LaTeX2e}\n\\ProvidesPackage{xml}\n\n')
+    f.write('\\NeedsTeXFormat{LaTeX2e}\n\\ProvidesPackage{xml}\n\n\\ProcessOptions\\relax')
     f.write(writePackage())
     f.close()

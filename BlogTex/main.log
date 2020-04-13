@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.27)  11 APR 2020 09:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.27)  12 APR 2020 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -659,311 +659,97 @@ LaTeX Warning: You have requested package `files/xml',
                but the package provides `xml'.
 
 Package: xml 
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box39
+\UL@hyphenbox=\box40
+\UL@skip=\skip60
+\UL@hook=\toks37
+\UL@height=\dimen173
+\UL@pe=\count160
+\UL@pixel=\dimen174
+\ULC@box=\box41
+Package: ulem 2012/05/18
+\ULdepth=\dimen175
+)
+./files/xml.sty:90: Illegal parameter number in definition of \htmlblockquote.
+<to be read again> 
+                   1
+l.90 ...mlblockquote}{\smallskip \\ \indent " #1"}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-./files/xml.sty:4: LaTeX Error: Command \xmlentriestitle already defined.
+./files/xml.sty:106: Illegal parameter number in definition of \htmltbody.
+<to be read again> 
+                   1
+l.106 ...ltbody}{\begin{tabular} #1 \end{tabular}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/xml.sty:108: Illegal parameter number in definition of \htmltr.
+<to be read again> 
+                   1
+l.108 \providecommand{\htmltr}{#1 \\}
+                                     
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+./files/xml.sty:128: LaTeX Error: Command \xmlfeed already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...command{\xmlentriestitle}[1]{\ignorespaces}
-                                                  
+l.128 \newenvironment{xmlfeed}{}{}
+                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./files/xml.sty:8: LaTeX Error: Command \xmlfeedtitle already defined.
+./files/xml.sty:132: LaTeX Error: Command \xmlentriescontent already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \newcommand{\xmlfeedtitle}[1]{\ignorespaces}
-                                                
+l.132 \newenvironment{xmlentriescontent}{}{}
+                                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./files/xml.sty:10: LaTeX Error: Command \xmlfeedsubtitle already defined.
+./files/xml.sty:134: LaTeX Error: Command \xmlfeedlinks already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...ommand{\xmlfeedsubtitle}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:16: LaTeX Error: Command \xmlfeedlink already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \newcommand{\xmlfeedlink}[1]{\ignorespaces}
-                                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:22: LaTeX Error: Command \table already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \newcommand{\table}[1]{\ignorespaces}
-                                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:24: LaTeX Error: Command \xmlentriescomments already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ...and{\xmlentriescomments}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:28: LaTeX Error: Command \xmlentriespublished already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...nd{\xmlentriespublished}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:42: LaTeX Error: Command \b already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \newcommand{\b}[1]{\ignorespaces}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:46: LaTeX Error: Command \span already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \newcommand{\span}[1]{\ignorespaces}
-                                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:52: LaTeX Error: Command \xmlentrieslink already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...command{\xmlentrieslink}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:56: LaTeX Error: Command \p already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \newcommand{\p}[1]{\ignorespaces}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:60: LaTeX Error: Command \xmllinksrel already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 \newcommand{\xmllinksrel}[1]{\ignorespaces}
-                                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:62: LaTeX Error: Command \a already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 \newcommand{\a}[1]{\ignorespaces}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:68: LaTeX Error: Command \xmlentriesauthor already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 ...mmand{\xmlentriesauthor}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:70: LaTeX Error: Command \xmllinkstype already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \newcommand{\xmllinkstype}[1]{\ignorespaces}
-                                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:78: LaTeX Error: Command \div already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \newcommand{\div}[1]{\ignorespaces}
-                                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:80: LaTeX Error: Command \xmlentriessummary already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...mand{\xmlentriessummary}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:88: LaTeX Error: Command \xmlfeedupdated already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...command{\xmlfeedupdated}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:90: LaTeX Error: Command \xmltitledetailbase already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ...and{\xmltitledetailbase}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:102: LaTeX Error: Command \xmltitledetailvalue already defined.
-
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 ...d{\xmltitledetailvalue}[1]{\ignorespaces}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/xml.sty:108: LaTeX Error: Command \i already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 \newcommand{\i}[1]{\ignorespaces}
+l.134 \newenvironment{xmlfeedlinks}{}{}
                                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./files/xml.sty:110: LaTeX Error: Command \xmllinkshref already defined.
+./files/xml.sty:148: LaTeX Error: Command \xmlfeedtitledetail already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \newcommand{\xmllinkshref}[1]{\ignorespaces}
-                                                  
+l.148 \newenvironment{xmlfeedtitledetail}{}{}
+                                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -985,7 +771,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-\AtBeginShipoutBox=\box39
+\AtBeginShipoutBox=\box42
 Package hyperref Info: Link coloring OFF on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -993,7 +779,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count160
+\c@section@level=\count161
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -1009,17 +795,17 @@ File: fc-english.def 2016/01/12
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count161
-\scratchdimen=\dimen173
-\scratchbox=\box40
-\nofMPsegments=\count162
-\nofMParguments=\count163
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count164
-\MPscratchDim=\dimen174
-\MPnumerator=\count165
-\makeMPintoPDFobject=\count166
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count162
+\scratchdimen=\dimen176
+\scratchbox=\box43
+\nofMPsegments=\count163
+\nofMParguments=\count164
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen177
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1075,129 +861,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./files/slatestarcodex.tex:12: LaTeX Error: Environment xmlfeedsubtitledetail u
-ndefined.
+Underfull \hbox (badness 10000) in paragraph at lines 9--21
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \begin{xmlfeedsubtitledetail}
-                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:14: LaTeX Error: \begin{xmlfeed} on input line 2 end
-ed by \end{xmlfeedsubtitledetail}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \end{xmlfeedsubtitledetail}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:16: LaTeX Error: Environment xmlfeedgeneratordetail 
-undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \begin{xmlfeedgeneratordetail}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:18: LaTeX Error: \begin{xmlfeed} on input line 2 end
-ed by \end{xmlfeedgeneratordetail}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \end{xmlfeedgeneratordetail}
-                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:22: LaTeX Error: Environment xmlentries undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \begin{xmlentries}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:24: LaTeX Error: Environment xmlentriestitledetail u
-ndefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \begin{xmlentriestitledetail}
-                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:26: LaTeX Error: \begin{document} ended by \end{xmle
-ntriestitledetail}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \end{xmlentriestitledetail}
-                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:28: LaTeX Error: Environment xmlentrieslinks undefin
-ed.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \begin{xmlentrieslinks}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:30: LaTeX Error: \begin{document} ended by \end{xmle
-ntrieslinks}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \end{xmlentrieslinks}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 ./files/slatestarcodex.tex:31: Illegal parameter number in definition of \Hy@te
 mpa.
@@ -1229,218 +895,2400 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ¶ in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ü in font cmti12!
+Missing character: There is no í in font cmti12!
 
-./files/slatestarcodex.tex:32: LaTeX Error: Environment xmlentriesauthors undef
-ined.
+./files/slatestarcodex.tex:120: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \begin{xmlentriesauthors}
-                              
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
 
-./files/slatestarcodex.tex:34: LaTeX Error: \begin{document} ended by \end{xmle
-ntriesauthors}.
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/derivative1.png' not
+ found on input line 120.
+
+
+./files/slatestarcodex.tex:120: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/derivative1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/derivative3.png' not
+ found on input line 120.
+
+
+./files/slatestarcodex.tex:120: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/derivative3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/derivative2.png' not
+ found on input line 120.
+
+
+./files/slatestarcodex.tex:120: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/derivative2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/gottleibgraph.jpg' n
+ot found on input line 120.
+
+
+./files/slatestarcodex.tex:120: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/gottleibgraph.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+./files/slatestarcodex.tex:120: Missing $ inserted.
+<inserted text> 
+                $
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./files/slatestarcodex.tex:120: You can't use `macro parameter character #' in 
+math mode.
+\htmlblockquote ->\smallskip \\ \indent " ##
+                                            1"
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: You can't use `macro parameter character #' in 
+math mode.
+\htmlblockquote ->\smallskip \\ \indent " ##
+                                            1"
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/igm_covid.png' not f
+ound on input line 120.
+
+
+./files/slatestarcodex.tex:120: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/igm_covid.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:120: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.120 ...o make some at Tesla factories}, though.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:121: Missing $ inserted.
+<inserted text> 
+                $
+l.121 \end{xmlentriescontent}
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no ü in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Overfull \hbox (12.24367pt too wide) in paragraph at lines 120--122
+[]\OT1/cmr/m/n/12 As be-fore, feel free to treat this as an open thread for all
+ coronavirus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Overfull \hbox (965.69199pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Idontthinkdeep \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 divingi
+ntothebatimmunesystem; whilecertainlyveryinteresting; isnecessarytoexplainthenu
+mberzoonoticdiseasesfrombats:Ithinkamoreimportantpointisthereisjustacrazynumber
+ofbats; andthepostdoesntseemtofullyappreciatethis:[] 
+ []
+
+
+Overfull \hbox (503.2009pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Thereareover\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n
+/12 250\OML/cmm/m/it/12 batspeciesinexistence:Thisisaboutonefifthofallmammalspe
+cies:Justtogetasenseofthis; letmeaskamodifiedversionofthequestioninthetitle \OT
+1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (484.74797pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Whydohumanbeingskeepgettingvirusesfromcows; sheep; horses; p
+igs; deer; bears; dogs; seals; cats; foxes; weasels; chimpanzees; monkeys; hare
+s; andrabbits\OT1/cmr/m/n/12 ?[] 
+ []
+
+
+Overfull \hbox (751.44397pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Thatlistcontainsspeciesfromfourmajormammalclades \OT1/cmr/m/
+n/12 : \OML/cmm/m/it/12 ungulates\OT1/cmr/m/n/12 (257\OML/cmm/m/it/12 species\O
+T1/cmr/m/n/12 )\OML/cmm/m/it/12 ; carnivora\OT1/cmr/m/n/12 (270)\OML/cmm/m/it/1
+2 ; primates\OT1/cmr/m/n/12 ( []300)\OML/cmm/m/it/12 ; andlagomorphs\OT1/cmr/m/
+n/12 (91)\OML/cmm/m/it/12 :Addingallthesetogether; wedontevengetto\OT1/cmr/m/n/
+12 3\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ofthetotalnumberofbatsp
+ecies[] 
+ []
+
+
+Overfull \hbox (323.7554pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 thefullcomment[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 andtheensu
+ingdiscussion\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 formore; includingwhetherbiodive
+rsityvsrawnumbersistheappropriatemeasurehere:[] 
+ []
+
+
+Overfull \hbox (7.2189pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 TheWisconsinDemocraticprimary\OT1/cmr/m/n/12 (\OML/cmm/m/it/
+12 plussomeunrelatedelections\OT1/cmr/m/n/12 )[] 
+ []
+
+
+Overfull \hbox (484.6517pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 wentaheadasusual[]thisweek; withpeoplegoingouttovotingbooths
+insteadofvotingbymail:Democratswantedtoallow\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m
+andate\OT1/cmr/m/n/12 ?)\OML/cmm/m/it/12 mailvoting; butRepublicansrefused:[] 
+ []
+
+
+Overfull \hbox (211.83665pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 PresumablyRepublicansassumedmailvotingwouldbenefitDemocrats\
+OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 Thelasttimeastateinstitutedvote \OMS/cmsy/m/n/
+12 ^^@
+ []
+
+
+Overfull \hbox (878.6181pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Imsurprisedbythis; becauseIwouldhaveexpectedmailvoting; asop
+posedtoboothvoting; benefitspeoplewithgoodexecutivefunctionwhoarefamiliarwithdo
+ingthingsbymailieolder; richerpeople; ieRepublicans:ItwouldappearthatIamwrong:[
+] 
+ []
+
+
+Overfull \hbox (1498.07939pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 WhatiftheepidemicisntdonebyNovember\OT1/cmr/m/n/12 ?\OML/cmm
+/m/it/12 Therewillprobablybeadiscussionofliftingtheshutdowntohaveanormalelectio
+n; vs:votingentirelybymail; vs:combinationwherepeoplewhowanttovotebymailcanbutt
+hepollsareopenforeveryoneelse:IdontknowifthesecondoptionisintheOvertonWindowrig
+htnow\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 orifitshouldbe\OT1/cmr/m/n/12 )\OML/cmm/
+m/it/12 :Thepartylineshereseemtobethesame \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (58.90694pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 alreadypushingforit[]; andconservativesare[]alreadydenouncin
+gitasaliberalplot[]:[] 
+ []
+
+
+Overfull \hbox (208.36743pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Iminfavor; obviously; butalsoterrifiedthatsomethinggoeswrong
+:Inonescenario; failuretoagreeonvote \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (459.51505pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 by \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 mailrules\OT1/cmr/m/n
+/12 (\OML/cmm/m/it/12 orfailuretoimplementthemcompetently\OT1/cmr/m/n/12 )\OML/
+cmm/m/it/12 delaystheelection; withnoclearwaytogetitbackontrack:Inanother; thes
+uddenpanickedswitchtoaless \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (144.71642pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 testedvotingmethodgoeswronginunpredictablewaysandcreatesambigu
+ityoverelectionresults:It[] 
+ []
+
+
+Overfull \hbox (169.5841pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 ananalysis[]ofwhatweshoulddoandhowtomakepostalvotingwork:Iju
+streallyhopeitdoesntcometothis:[] 
+ []
+
+
+Overfull \hbox (505.22913pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 LastweekIlinkedalistofpotentiallygoodcoronaviruscharitiescob
+bledtogetherbysomerandompeopleontheEAforum:Nowamoreseriousorganization; \OT1/cm
+r/m/n/12 80\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 Hours; [] 
+ []
+
+
+Overfull \hbox (853.64224pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 ThetopoptionisstilltheJohnsHopkinsCenterforHealthSecurity; w
+hichresearchesandadvocatesforbiosecuritypolicy:Lastweeksomeoneinthecommentsdoub
+tedthequalityoftheirwork; pointingoutthatoneoftheirflagshipeffortsisa[] 
+ []
+
+
+Overfull \hbox (2326.22423pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 rankingofhowprepareddifferentcountriesareforaglobalpandemic[
+]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 their\OT1/cmr/m/n/12 2019\OML/cmm/m/it/12 l
+istingputtheUSatthetop; whichnowfeelslikeacrueljoke:ButImnotsurehowmuchtoholdit
+againstthem:Lookingattheirwebpage; itmostlyinvestigateswhetheracountryhasgoodpl
+ansaddressingvariousissuesofacrisis; andlotsofresourcesthatitcandeployifneeded:
+AsbestIcantell; theUShadgreatplansanddidntfollowanyofthem; andlotsofresourceswh
+ichittotallyfailedtodeployeffectively:Responsiblethinktanksareprobablynotallowe
+dtoadda \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (561.15605pt too wide) in paragraph at lines 120--122
+\OT1/cmr/m/n/12 10000\OML/cmm/m/it/12 pointsattheendoftheiranalysisforbutitslea
+dersareidiots:Thismightstillbeagoodtimetoreread[]Samzdatonhokeycountryrankings[
+]and[]no[]ear[]o[]owonhokeycountryrankings[]:[] 
+ []
+
+
+Overfull \hbox (477.0719pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 thetrialsandtribulationsofpeople[]tryingtodonatefacemaskstoh
+ospitals; andheresanarticlefromthreeyearsagoabout[]issuingpandemicbonds[]asanov
+elinsurance \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (1048.86026pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 TheCOVIDChallenge[]whereyousignuptodeliberatelygetinfectedwi
+thcoronavirusisabadidea; butitsactuallysomevolunteerstryingtomakealistofpeoplew
+howouldbewillingtogetdeliberatelyinfected\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ifit
+cametothat\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 inordertotestvaccines; whichtheywil
+lhandovertovaccine \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (953.79506pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 makersoncetheygettothetestingstage:RationalistJohnBeshir[]dids
+omethinglikethis[]foramalariavaccinelastyearandearned\OT1/cmr/m/n/12 $3200(\OML
+/cmm/m/it/12 plusthewarmglowofhavingmadeadifference\OT1/cmr/m/n/12 )\OML/cmm/m/
+it/12 bylettinghimselfgettingbittenbyinfectedmosquitoesinanOxfordlaboratory:[] 
+
+ []
+
+
+Overfull \hbox (222.41286pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Turkmenistanisastrangecountry:Youprobablyrememberitforitswac
+kyformerdictatorTurkmenbashi; who[] 
+ []
+
+
+Overfull \hbox (1673.78188pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 amongotherthings[]renamedthemonthofMarchafterhismother; andt
+oldcitizensthatanyonewhoreadhisbookthreetimeswouldenterHeaven:Orforitswackycurr
+entdictatorGurbangulyBerdymukhamedov; whoNPR[]describes[]asadentist=rapper=stro
+ngman:OrforitsimpressiveaccomplishmentofbeatingoutNorthKoreatobenamed[]themostr
+epressivecountryonEarth[]byReportersWithoutBorders:[] 
+ []
+
+
+Overfull \hbox (64.32208pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 bannedmentioningthewordcoronavirusoracknowledgingitsexistenc
+einanyway[]:[] 
+ []
+
+
+Overfull \hbox (1371.5966pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 arguesthisisnotquitetrue[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12
+ somestatemediaseemstobeusingtheword:Buttheyaredefinitelyarrestingpeoplefortalk
+ingaboutitoutsideofficialgovernmentorgans; andtheyaredefinitelydenyingthatthere
+areanycasesinthecountry:SinceTurkmenistanisrightnexttoIran; whichhashadthousand
+sofcasesformonths; thisisprettyimplausible:[] 
+ []
+
+
+Overfull \hbox (777.12643pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 TheDiplomatalsorequeststhatpeopletrynottofocusonthecountrysw
+ackydictatorssomucheverytimetheytalkaboutit; sincethatmakesithardtogetpeopletot
+akeitssufferingseriously:Sorry; DiplomatandTurkmenpeople[] 
+ []
+
+
+Overfull \hbox (108.5357pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 describes[]theirhomecountryofBrazil; whichseemstoberightupth
+erewithTurkmenistan \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (922.6083pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Wereoneofthefewcountriesinthedevelopingworldthatactuallycoul
+dhandlethepandemicreasonablywell\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Wehavearound\
+OT1/cmr/m/n/12 61\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ventilat
+ors; or\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ventilatorper\OT1/cmr/m/n/12 3\OML/cmm
+/m/it/12 :\OT1/cmr/m/n/12 300\OML/cmm/m/it/12 people; whichisntactuallythatbada
+ndcouldbeexpandedforadecentepidemicresponse\OT1/cmr/m/n/12 )[] 
+ []
+
+
+Overfull \hbox (2202.7474pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 However; ourpresidenthasdecidedtogoall \OMS/cmsy/m/n/12 ^^@ 
+\OML/cmm/m/it/12 inondenyinghowseriousthevirusis:TheAtlanticevencalledhimthenew
+leaderoftheCoronavirusdenialmovement:Hesaccusinglocalpoliticianswhohaveinstitut
+edlockdownsofplottingtodestroythecountryseconomyinordertouseitagainsthimlater:H
+issons; whoarelocalpoliticiansinthewealthypartsofthecountry; havebeensayingthis
+isallaplotbyleftistpoliticianstogetherwiththePeoplesRepublicofChinatomakehimand
+Trumplookbad:IwishIwaskidding[] 
+ []
+
+
+Overfull \hbox (1418.8005pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Theworstpartisthathesledanationwidemovementtellingpeopletole
+avetheirhomesandgobacktotheirnormallives:ThegovernmentactuallywantedtomakeBrazi
+lcantstopintoanationwidecampaign; butwhenasignificantpartofthepopulationdidntap
+preciateit; theyjustdeletedthesocialmediapostsandnowtheyclaimthereneverwassucha
+campaign:[] 
+ []
+
+
+Overfull \hbox (689.62271pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 AndlastmonthIwonderedaboutthesurprisinglyslowspreadofcasesin
+Iran:Icantfindanyonesayingsooutright; butitseemslikethenumbersareprobablywrong:
+AtleastthatswhatIgatherfromarticleslike[] 
+ []
+
+
+Overfull \hbox (2473.38017pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 this[]andTwitteraccountslike[]this[]highlightingthescaleofth
+ecrisisthere; whichseemsatleastasbadasanywhereintheworld:Idontknowiftheyredelib
+eratelylyingaboutcasenumbers\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 whystartnow; afte
+rthenumbersweresobadafewweeksago\OT1/cmr/m/n/12 ?)\OML/cmm/m/it/12 oriftestingh
+asjustcompletelybrokendownthere:Seealso[]thisarticle[]onhowtheirformofgovernmen
+thasledtopowerstrugglesandagarbledresponse:IwouldsaysomethingmeanaboutradicalIs
+lamicfundamentalism; exceptthatthewholethingmirrorsblowforblowwhathappenedbetwe
+enCuomoanddeBlasioinNewYork:[] 
+ []
+
+
+Overfull \hbox (860.7634pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 onthemysteryofJapan[]:Tl\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 d
+r \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 culturaltraditionslikemask \OMS/cmsy/m/n/1
+2 ^^@ \OML/cmm/m/it/12 wearingandbowinghelpeditforawhile; crowdedtrainsarentasb
+adasyoudthinkbecausenobodystalking; banninglargegatheringsveryearlywasa[]goodmo
+ve; theirweakhalf \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (507.08514pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 heartedversionoftest \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 and
+ \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 traceworkedforawhileoutofsheerluck; butn
+owcasesarefinallystartingtoriseandthereprobablywontbeamysterytoexplainformuchlo
+nger:[] 
+ []
+
+
+Overfull \hbox (509.90648pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 TheIGMEconomicsExpertsPanelsurveysaviewdozentopeconomistsont
+heissuesoftheday:Thismonththeyrefocusingoncoronavirus:Herearesomesampleresults 
+\OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (167.2813pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 theyprettyunanimouslysupportthelockdown; evenwhenaskedonlyto
+reflectonitseconomicimpact:[] 
+ []
+
+
+Overfull \hbox (1071.03528pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Somesocialistsonsocialmediaaretryingtospreadanarrativewherec
+apitaliststhinktheeconomyismoreimportantthanlivesandwanttoliftthelockdownimmedi
+ately; anditsonlysocialistswhoarestandingupfortheimportanceofsavingpeople:Topec
+onomistsarentaperfectstand \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (203.23778pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Also; therearestartingtobesomeeconpaperstryingtomorerigorous
+lyanalyzetheprosandconsoflockdown:[] 
+ []
+
+
+Overfull \hbox (830.79984pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 TheBenefitsandCostsofFlatteningtheCurveforCOVID \OMS/cmsy/m/
+n/12 ^^@ \OT1/cmr/m/n/12 19[]\OML/cmm/m/it/12 saysthatassumingthatsocialdistanc
+ingmeasurescansubstantiallyreducecontactsamongindividuals; wefindnetbenefitsofr
+oughly\OT1/cmr/m/n/12 $5\OML/cmm/m/it/12 trillioninourbenchmarkscenario:[] 
+ []
+
+
+Overfull \hbox (624.9591pt too wide) in paragraph at lines 120--122
+[][]\OML/cmm/m/it/12 https \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==twitter:com=Noa
+hpinion=status=\OT1/cmr/m/n/12 1240348644554887168[][]\OML/cmm/m/it/12 ofAmeric
+aslonghistoryofbeinglateonthetriggerbutdoingagreatjoboncewegetstarted\OT1/cmr/m
+/n/12 (\OML/cmm/m/it/12 Churchill \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (1343.01904pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 YoucanalwayscountonAmericanstodotherightthingaftertheyvetriede
+verythingelse:\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :WewerelateentrantsintobothWorl
+dWarsbuthadanoutsizedeffectonbothofthem:Inthatspirit; althoughwewereveryslowtos
+tarttesting; weverampedupimpressivelyfastfromalmostnoneto\OT1/cmr/m/n/12 1\OML/
+cmm/m/it/12 =\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ofSouthKoreanlevelspercapitawith
+inafewweeks:[] 
+ []
+
+
+Overfull \hbox (21.3207pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 AlsoworthcelebratingduringtheWuhanphaseofthepandemic; China[
+] 
+ []
+
+
+Overfull \hbox (1398.38742pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 builtanimpromptu\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr
+/m/n/12 000\OML/cmm/m/it/12 patienthospitalintendays[]:USmediareportedthisasunb
+elievableasignthatayoungandvigorouscountrycouldaccomplishfeatsthatadecadentAmer
+icacouldneverdreamof:ButlastweekinNewYork; theArmyCorpsofEngineersconvertedtheJ
+avitsConventionCenterintoanimpromptu\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cm
+r/m/n/12 000\OML/cmm/m/it/12 patienthospitalin[]abouttendays[]:[] 
+ []
+
+
+Overfull \hbox (1460.24011pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Idontknow; maybethiswaseasierbecausetheyreconvertinganexisti
+ngstructureinsteadofbuildingawholenewone\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 thoug
+heventheChineseusedprefabunits\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :Butitsnicetokn
+owwestillhaveitinustodothingsquickly:Theresnocivilizationaldecline:Ifthegovernm
+enteverlegalizedbuildingthingsquicklyagain; wedbemoppingthefloorwithChinawithin
+weeks:[] 
+ []
+
+
+Overfull \hbox (295.7968pt too wide) in paragraph at lines 120--122
+[][][][]\OML/cmm/m/it/12 ; whichmeansthatitsillegaltodosomethingwhichislegalbut
+looksillegal:Forexample; youcanteatsomekindofplant \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (882.11043pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 basedImpossibleBacon; becauseitwouldlooklikeyouwereeatingrealb
+acon:SomeauthoritiessayitissometimespermissibletoeattheImpossibleBaconifyouleav
+etheboxoutinaprominentpositionsothatitdoesntlookillegal\OT1/cmr/m/n/12 ; \OML/c
+mm/m/it/12 Imnotsureofthedetails:[] 
+ []
+
+
+Overfull \hbox (2072.58315pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Theargumentisthatwidespreadflagrantunpunishedviolationofthel
+awmakesthelawuncompellingandunenforceable; andthisistruewhethertheviolationisre
+alorimagined:Ifyouneverseeanyoneeatbacon; youprobablywonteatityourself\OT1/cmr/
+m/n/12 ; \OML/cmm/m/it/12 ifeveryonearoundyouseemstobeeatingbaconallthetime; it
+feelslesstaboo:Also; ifyoureapoliceofficer; itshardtoidentifytherealbaconeaters
+ifthereareabunchofpeopleeatingImpossibleBaconwhogetannoyedeverytimeyouquestiont
+hem:[] 
+ []
+
+
+Overfull \hbox (81.39572pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 IwasthinkingaboutthisrecentlywiththenewsthatGermanyisconside
+ringissuing[] 
+ []
+
+
+Overfull \hbox (1466.24721pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 immunitycertificates[]forpeoplewhohavegottencoronavirus; rec
+overed; andarenowsafetodonormalactivities:Itsagoodidea; butsuffersfromthesamepr
+oblemasImpossibleBaconiftherearehundredsofpeoplegoingoutsidemaskless; eatingatr
+estaurants; andsunningthemselvesonthebeach; itsgoingtobehardfortherestofustotak
+elockdownseriouslyenough:[] 
+ []
+
+
+Overfull \hbox (1969.88618pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Theequivalentoftherabbisput \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/
+it/12 the \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 box \OMS/cmsy/m/n/12 ^^@ \OML/c
+mm/m/it/12 outsolutionwouldbeforgovernmentstoissuenotjustacertificatebutsomekin
+dofuniquearticleofclothingpeoplecouldweartomarktheirstatus:Forexample; theymigh
+tgiveanunusuallyshapedredcapifthebeachesarefullofpeopleinredcaps; thatsfineandd
+oesntsayanythingaboutwhetheryoupersonallyshouldgosunbathe:Andifthebeachgoerssee
+someonewithoutaredcap; theycanquestionthemorkeeptheirdistance:[] 
+ []
+
+
+Overfull \hbox (611.34435pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Thiswouldtakealotofcentralizedcoordination; though:Imnotsure
+howyoucouldsendthesamemessagewithoutagovernmentorderexplainingwhatthecapmeantto
+everybody:Though\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 asper[] 
+ []
+
+
+Overfull \hbox (98.22995pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 thisOnionarticle[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 wearinga
+fakepangolinsnoutoveryournosewouldsendastrongsignal:[] 
+ []
+
+
+Overfull \hbox (414.93419pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Areaderwhohasovercomethediseaseemailedmetoaskwhetherthereare
+anyusefulvolunteeropportunitiesforpeoplelikehimanyonehaveanyadvice\OT1/cmr/m/n/
+12 ?[] 
+ []
+
+
+Overfull \hbox (561.37636pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 LastweekIexpressedconfusionabouthowtomeasurepopulationdensit
+ysothatarbitrarychoicesofborderdontdistorttheresults:Commentersdeliveredbyfindi
+ngmethisarticleon[] 
+ []
+
+
+Overfull \hbox (235.9536pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 population \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 weightedden
+sity[]; whichsolvesmytheoreticalconcernsbutdoesntreallychangeanyofthenumbersmuc
+h:[] 
+ []
+
+
+Overfull \hbox (14.52423pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 TheNetherlandsisanothercountrywhich; likeSwedenandBrazil; is
+[] 
+ []
+
+
+Overfull \hbox (661.29106pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 volunteeringtobethecontrolgroup[]forthegreatexperimentofwhet
+hernationallockdownswork:MaybesomeoneshouldcomparethemtoBelgiumorsomewhereliket
+hatinafewmonthsandseehowtheydid:[] 
+ []
+
+
+Overfull \hbox (264.95836pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 AnaircraftcarriercaptainpubliclycomplainedthattheNavywasfail
+ingtoaddressanepidemicaboardhisship\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 theNavy[]
+ 
+ []
+
+
+Overfull \hbox (596.14319pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 firedhimforwhistleblowing[]:Imhavingahardtimethinkingofanype
+rspectiveotherthantheNavyisbadandshouldbetorndowntotallytothefoundations; prefe
+rablyusingsomesortofland \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (210.28543pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 basedweaponsotheycantfightback; but[]heresadifferentex \OMS/cm
+sy/m/n/12 ^^@ \OML/cmm/m/it/12 captain[]tryinghisbesttogiveanuancedperspective:
+[] 
+ []
+
+
+Overfull \hbox (7.29753pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 SaywhatyouwillabouttheNewYorkTimescoveragelately; buttheir[]
+ 
+ []
+
+
+Overfull \hbox (163.60721pt too wide) in paragraph at lines 120--122
+[][]\OML/cmm/m/it/12 https \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==comparativelysu
+perlative:tumblr:com=post=\OT1/cmr/m/n/12 614509645957136384\OML/cmm/m/it/12 =i
+nvertedporcupine \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (1781.07872pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 fieldsoffire\OT1/cmr/m/n/12 100 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/
+m/it/12 im \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 gonna[][]hasadiscussionofhow=w
+hetheraClintonadministrationmighthaverespondeddifferentlytothepandemic; butthep
+artIlikeisthediscussionofthephrasefollowthepandemicresponseplaybook:Itturnsoutt
+hisisaliteraldocument; calledthePlaybookForEarlyResponseToHighConsequenceEmergi
+ngInfectiousDiseaseThreatsAndBiologicalIncidents; andyoucanreadit[]here[]:[] 
+ []
+
+
+Overfull \hbox (1220.59862pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 recommendsagainstusingNSAIDsforcoronavirus[]:Stillnotcomplet
+elyproven; butIthinktheyrerighttoadvisecaution:Whilemostexpertsthemselvesbehave
+dappropriately; thisismoreeggonthefaceofthemedia; whichuntilafewweeksagowas[]ru
+nning[][]stories[]tellingpeoplethiswasamythandtheyshouldignoreit:[] 
+ []
+
+
+Overfull \hbox (465.35324pt too wide) in paragraph at lines 120--122
+[]\OT1/cmr/m/n/12 538\OML/cmm/m/it/12 surveyedinfectiousdiseaseexpertsaroundthe
+US; askingthemtopredictthenumberofcasesinXdaystime; withconfidenceintervals:The
+resultsarein; and[] 
+ []
+
+
+Overfull \hbox (126.178pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 theexpertsdidworsethanjustcontinuingtheexponentialcurveonthe
+graphwouldhave[]:EDIT \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (98.25914pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 IfyourefollowingRobinHansonsvariolationproposals; youcanwatc
+hHansondebate[] 
+ []
+
+
+Overfull \hbox (518.48209pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 vs:ZviMoskowitz[][]and[][]vs:GregCochran[]\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 andheres[]CowenonHanson[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :Any
+way; viraldose[]seemstohavegonemainstream[]; thoughnobodyseemstobedoinganything
+aboutityet:[] 
+ []
+
+
+Overfull \hbox (342.70946pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 twodifferentinterpretationsofflattenthecurve[]:Ithinkthisexp
+lainswhysomuchofthediscussionaroundthisphrasehasbeenconfusing:[] 
+ []
+
+
+Overfull \hbox (1.46638pt too wide) in paragraph at lines 120--122
+[][]\OML/cmm/m/it/12 https \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==globalnews:ca=n
+ews=\OT1/cmr/m/n/12 6772979\OML/cmm/m/it/12 =coronavirus \OMS/cmsy/m/n/12 ^^@ \
+OT1/cmr/m/n/12 3\OML/cmm/m/it/12 m \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 n\OT1/
+cmr/m/n/12 95 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (1341.64243pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 respirators \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 trump \OMS/c
+msy/m/n/12 ^^@ \OML/cmm/m/it/12 canada=[][]; andalso[]KeyMedicalSuppliesWereShi
+ppedFromUSManufacturersToForeignBuyers[]:Ithinkweresupposedtobeoutragedaboutbot
+hofthosethingssimultaneouslybutIcantmanageit; maybesomeofyouwillhavebetterluck:
+[] 
+ []
+
+
+Overfull \hbox (108.20985pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Howmuchriskdoyoungpeoplereallyfacefromcoronavirus\OT1/cmr/m/
+n/12 ?\OML/cmm/m/it/12 Whataretherisksoflong \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (912.0918pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 Lastweek; ElonMuskgotwidespreadpraise\OT1/cmr/m/n/12 (\OML/c
+mm/m/it/12 includinghere\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 fordonatingathousandv
+entilatorshemanagedtoprocurethroughhisTeslasupplychain:Nowthepicturehasbecomemo
+reconfusing:Reporterslookingatapictureofhisshipmentnoticedthat[] 
+ []
+
+
+Overfull \hbox (2234.4108pt too wide) in paragraph at lines 120--122
+[]\OML/cmm/m/it/12 theboxespicturedareforBiPAPmachines[]technicallyakindofventi
+lator; butnotthekindhospitalsneedtofightcoronavirus:Wasthewholethingagiantmista
+keorcynicalPRstunt\OT1/cmr/m/n/12 ?\OML/cmm/m/it/12 Butthensomehospitals[]tweet
+edthankingTesla[]specificallyfordeliveringMedtronicinvasiveventilators; which[]
+thekindhospitalsneedtofightcoronavirus:Somepeoplearetheorizingthatmaybehospital
+sdontwanttooffendMusksincehemighthaverealventilatorslater; otherpeoplethatmaybe
+Muskgotbothsomeusefulandsomenon \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (221.24104pt too wide) in paragraph at lines 120--122
+\OML/cmm/m/it/12 usefulventilatorsinhisshipment:Idunno:Inanycase; hes[]stillpro
+misingtomakesomeatTeslafactories[]; though:$ 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
+./files/slatestarcodex.tex:130: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.130 ...redictions-calibration-results/#comments}
+                                                  \xmlentriespublished{Thu, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:130: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.130 ...redictions-calibration-results/#comments}
+                                                  \xmlentriespublished{Thu, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:130: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.130 ...redictions-calibration-results/#comments}
+                                                  \xmlentriespublished{Thu, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ¶ in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ü in font cmti12!
+Missing character: There is no í in font cmti12!
+
+./files/slatestarcodex.tex:290: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \end{xmlentriesauthors}
-                            
+l.290 ...bly come up with some later this month.}}
+                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ¶ in font cmti12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+./files/slatestarcodex.tex:290: Misplaced alignment tab character &.
+<argument> ...} \htmlbr 107. I am still playing D&
+                                                  D: 60\% \htmlbr 108. I go ...
+l.290 ...bly come up with some later this month.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-./files/slatestarcodex.tex:36: LaTeX Error: Environment xmlentriesauthordetail 
-undefined.
+
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/calibration2019.png'
+ not found on input line 290.
+
+
+./files/slatestarcodex.tex:290: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/calibration2019.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290 ...bly come up with some later this month.}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+
+Overfull \hbox (12.94539pt too wide) in paragraph at lines 290--292
+|   []   |   []   |   []   |   []   |   []   |   [] |   []   |   []   |   []   
+|   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
+
+ []
+
+[6] [7] [8] [9] [10]
+./files/slatestarcodex.tex:300: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.300 ...7/never-tell-me-the-odds-ratio/#comments}
+                                                  \xmlentriespublished{Wed, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:300: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.300 ...7/never-tell-me-the-odds-ratio/#comments}
+                                                  \xmlentriespublished{Wed, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:300: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.300 ...7/never-tell-me-the-odds-ratio/#comments}
+                                                  \xmlentriespublished{Wed, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ì in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ¶ in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ü in font cmti12!
+Missing character: There is no í in font cmti12!
+[11]
+
+./files/slatestarcodex.tex:324: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \begin{xmlentriesauthordetail}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:38: LaTeX Error: \begin{document} ended by \end{xmle
-ntriesauthordetail}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+l.324 ... that report their results differently.}}
                                                   
-l.38 \end{xmlentriesauthordetail}
-                                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:40: LaTeX Error: Environment xmlentriestags undefine
-d.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \begin{xmlentriestags}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./files/slatestarcodex.tex:42: LaTeX Error: \begin{document} ended by \end{xmle
-ntriestags}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 \end{xmlentriestags}
-                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
-Missing character: There is no ¶ in font cmti12!
+Missing character: There is no ì in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
 
-./files/slatestarcodex.tex:43: LaTeX Error: Command \https://slatestarcodex.com
-/2020/04/10/coronalinks-4-10-second-derivative/ unavailable in encoding OT1.
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/chentable.png' not f
+ound on input line 324.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+
+./files/slatestarcodex.tex:324: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/chentable.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 ...ontinue reading \span{pjgm-metanav}{‚Üí}}}
+l.324 ... that report their results differently.}}
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-./files/slatestarcodex.tex:43: Misplaced \span.
-<argument> ...derivative/}{Continue reading \span 
-                                                  {pjgm-metanav}{‚Üí}}
-l.43 ...ontinue reading \span{pjgm-metanav}{‚Üí}}}
-                                                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
 
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+
+ []
+
+[12]
+Overfull \hbox (10.90883pt too wide) in paragraph at lines 328--330
+\OT1/cmr/m/n/12 https://slatestarcodex.com/feed/SSCJC: Real World De-pres-sion 
+Mea-
+ []
+
+./files/slatestarcodex.tex:334: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.334 ...l-world-depression-measurement/#comments}
+                                                  \xmlentriespublished{Tue, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:334: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.334 ...l-world-depression-measurement/#comments}
+                                                  \xmlentriespublished{Tue, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:334: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.334 ...l-world-depression-measurement/#comments}
+                                                  \xmlentriespublished{Tue, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ¶ in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ü in font cmti12!
 Missing character: There is no í in font cmti12!
 
-./files/slatestarcodex.tex:44: LaTeX Error: Environment xmlentriessummarydetail
- undefined.
+Overfull \hbox (0.3385pt too wide) in paragraph at lines 343--350
+[]\OT1/cmr/bx/n/14.4 Tags:  \OT1/cmr/m/n/10 Un-cat-e-go-rized-jour-nal clubpsy-
+chi-a-try  \OT1/cmr/m/it/12 The largest non-pharma
+ []
+
+
+./files/slatestarcodex.tex:412: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{xmlentriessummarydetail}
-                                    
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+./files/slatestarcodex.tex:412: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   f
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-./files/slatestarcodex.tex:46: LaTeX Error: \begin{document} ended by \end{xmle
-ntriessummarydetail}.
+./files/slatestarcodex.tex:412: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   f
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:412: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   f
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no Æ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+./files/slatestarcodex.tex:412: Illegal parameter number in definition of \rese
+rved@a.
+<to be read again> 
+                   }
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:412: Illegal parameter number in definition of \@for
+tmp.
+<to be read again> 
+                   }
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:412: Illegal parameter number in definition of \@nex
+tchar.
+<to be read again> 
+                   }
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+./files/slatestarcodex.tex:412: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \end{xmlentriessummarydetail}
-                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+horizontal mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 
  []
 
-)
-Runaway argument?
-{\p {The second derivative is the rate of growth of the rate of growt\ETC.
-./main.tex:14: File ended while scanning use of \xmlcontentvalue.
-<inserted text> 
-                \par 
-l.14 \import{files/}{slatestarcodex.tex}
-                                        
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
 
-[1
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+ []
 
-./main.tex:18: LaTeX Error: \begin{xmlentriescontent} on input line 48 ended by
- \end{document}.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+
+ []
+
+[13] [14]
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no § in font cmr12!
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: You can't use `macro parameter character #' in 
+vertical mode.
+\htmltr ->##
+            1 \\
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no § in font cmr12!
+./files/slatestarcodex.tex:412: Misplaced alignment tab character &.
+\htmltd #1->#1 &
+                 
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./files/slatestarcodex.tex:412: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \end{document}
-                   
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 18.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B8011E799FC444FC9B10F8814C14522A;135.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18.
- )
-(\end occurred inside a group at level 2)
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 
-### semi simple group (level 2) entered at line 48 (\begingroup)
-### semi simple group (level 1) entered at line 22 (\begingroup)
-### bottom level 
+LaTeX Warning: File `http://slatestarcodex.com/blog_images/hieronymous.png' not
+ found on input line 412.
+
+
+./files/slatestarcodex.tex:412: Package pdftex.def Error: File `http://slatesta
+rcodex.com/blog_images/hieronymous.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 ...fully confident prescribing this stuff.}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+[15] [16]
+./files/slatestarcodex.tex:422: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.422 ...com/2020/04/05/open-thread-151/#comments}
+                                                  \xmlentriespublished{Sun, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:422: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.422 ...com/2020/04/05/open-thread-151/#comments}
+                                                  \xmlentriespublished{Sun, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./files/slatestarcodex.tex:422: Illegal parameter number in definition of \Hy@t
+empa.
+<to be read again> 
+                   c
+l.422 ...com/2020/04/05/open-thread-151/#comments}
+                                                  \xmlentriespublished{Sun, ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ¶ in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ü in font cmti12!
+Missing character: There is no í in font cmti12!
+
+./files/slatestarcodex.tex:445: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.445 ... if they end up on the wrong side of it?}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./files/slatestarcodex.tex:445: TeX capacity exceeded, sorry [input stack size=
+5000].
+<to be read again> 
+                   :
+l.445 ... if they end up on the wrong side of it?}
+                                                  
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
 Here is how much of TeX's memory you used:
- 17974 strings out of 494415
- 330909 string characters out of 6170237
- 548025 words of memory out of 5000000
- 21092 multiletter control sequences out of 15000+600000
- 13829 words of font info for 55 fonts, out of 8000000 for 9000
+ 18086 strings out of 494415
+ 331824 string characters out of 6170237
+ 583722 words of memory out of 5000000
+ 21171 multiletter control sequences out of 15000+600000
+ 12578 words of font info for 48 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 69i,6n,58p,1830b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmbx10
-.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home
-/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/swallace685
-9/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/swallace6859/texmf/font
-s/type1/public/amsfonts/cm/cmr17.pfb></home/swallace6859/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/c
-m/cmti12.pfb></home/swallace6859/texmf/fonts/type1/public/amsfonts/cm/cmti9.pfb
->
-Output written on main.pdf (1 page, 96334 bytes).
-PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 5000i,11n,8988p,1298b,617s stack positions out of 5000i,500n,10000p,200000b,80000s
+./files/slatestarcodex.tex:445:  ==> Fatal error occurred, no output PDF file p
+roduced!

@@ -58,19 +58,11 @@ def WriteTeX(page,prefix):
 def writePackage():
     finalString = ''
     wholeTeX = ''
-    for TeXFile in list(Path('./files/').glob('**/*.tex')):
+    for TeXFile in list(Path('./files/').glob('**/*.sectex')):
         wholeTeX += open(str(TeXFile),'r',encoding='UTF-8').read()
     cmds = re.findall('\\\\(?P<cmd>(?:xml|html)\w+)((?:\{.*?\})*)',wholeTeX)
     finder = re.compile('\{.*?\}')
     nargs = {cmd[0]:len(finder.findall(cmd[1])) for cmd in cmds}
-    for cmd in nargs.keys():
-        if nargs[cmd] != 0:
-            finalString += '\\newcommand{\\' + cmd + '}[' + str(nargs[cmd]) + ']{\\ignorespaces}\n\n'
-        else:
-            finalString += '\\newcommand{\\' + cmd + '}{\\ignorespaces}\n\n'
-
     envs = re.findall(r'\\begin\{(?P<env>\w+)\}',wholeTeX)
     envs = list(set(envs))
-    for env in envs:
-        finalString += '\\newenvironment{' + env  +'}{}{}\n\n'
-    return finalString
+    return (nargs,envs)
