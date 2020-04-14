@@ -4,10 +4,6 @@ import sys
 import re
 from  TeXWriter import *
 
-# Short function to make easy names from urls
-def createShortName(urlString):
-    return re.match('^[htps]+://w*\.*(\w+)\.com',urlString).group(1)
-
 #open database
 data = sqlite3.connect('files/blogs.db')
 d = data.cursor()

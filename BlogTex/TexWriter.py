@@ -34,6 +34,9 @@ class parser(HTMLParser):
     def parsed(self):
         return self.output
 
+def createShortName(urlString):
+    return re.match('^[htps]+://w*\.*(\w+)\.com',urlString).group(1)
+
 def cleanKey(string):
     return re.sub('\s|_','',string)
 
@@ -62,7 +65,8 @@ def writePackage():
         wholeTeX += open(str(TeXFile),'r',encoding='UTF-8').read()
     cmds = re.findall('\\\\(?P<cmd>(?:xml|html)\w+)((?:\{.*?\})*)',wholeTeX)
     finder = re.compile('\{.*?\}')
-    nargs = {cmd[0]:len(finder.findall(cmd[1])) for cmd in cmds}
+    nargs = {cmd[0]:{'nargs':len(finder.findall(cmd[1])), 'code':'\ignorespaces'} for cmd in cmds}
     envs = re.findall(r'\\begin\{(?P<env>\w+)\}',wholeTeX)
     envs = list(set(envs))
+    envs = {env: {'begincode':'','endcode':''} for env in envs}
     return (nargs,envs)

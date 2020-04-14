@@ -1,7 +1,8 @@
 import os
+import time
 print("Hello and welcome to BlogTeX.")
 time.sleep(3)
-print("We are setting up your database for your RSS feeds. One moment please...")
+print("We are setting up the program. One moment please...")
 
 try:
     import feedparser as fr
@@ -9,7 +10,14 @@ except:
     os.system('pip install feedparser')
 import sqlite3 as sq
 import feedparser as fr
-import time
+try:
+    import shelve
+except:
+    os.system('pip install shelve')
+try:
+    import feedparser
+except:
+    os.system('pip install shelve')
 
 
 data = sq.connect('files/blogs.db')

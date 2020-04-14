@@ -1,0 +1,4 @@
+import storage
+
+
+storage.storeTeXCmds()
