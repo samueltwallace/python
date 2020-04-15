@@ -58,7 +58,7 @@ def WriteTeX(page,prefix):
             bigString += '\n\\end{xml' + prefix + cleanKey(key) + '}\n'
     return bigString
 
-def writePackage():
+def collectCmdsEnvs():
     finalString = ''
     wholeTeX = ''
     for TeXFile in list(Path('./files/').glob('**/*.sectex')):
