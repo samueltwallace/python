@@ -56,3 +56,9 @@ class storageUnit:
 
     def writeEnvs(self):
         open('files/rss.envs','w',encoding='UTF-8').write(json.dumps(self.envs))
+
+    def returnCmds(self):
+        return self.cmds
+
+    def returnEnvs(self):
+        return self.envs

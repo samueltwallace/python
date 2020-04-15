@@ -1,22 +1,15 @@
 import feedparser
-import sqlite3
-import sys
-import re
+import json
 from  TeXWriter import *
 
-#open database
-data = sqlite3.connect('files/blogs.db')
-d = data.cursor()
-
-#Select all urls for blogs
-d.execute('SELECT url FROM urls;')
-links = d.fetchall()
-
 def makeSections():
+    links = json.loads(open('files/rss.blogs','r',encoding='UTF-8').read())
     pages = []
+
+    # TODO: Rewrite this function
     # collect page objects
-    for link in links:
-        pages.append(feedparser.parse(link[0]))
+    for link in links.keys():
+        pages.append(feedparser.parse(links[link]))
 
 
     for page in pages:
