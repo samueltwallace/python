@@ -8,11 +8,11 @@ class storageUnit:
 
         """
         try:
-            self.cmds = json.loads(open('files/rss.cmds','r',encoding='UTF-8').read())
+            self.cmds = json.loads(open('files/cmds.json','r',encoding='UTF-8').read())
         except:
             self.cmds = {}
         try:
-            self.envs = json.loads(open('files/rss.envs','r',encoding='UTF-8').read())
+            self.envs = json.loads(open('files/envs.json','r',encoding='UTF-8').read())
         except:
             self.envs = {}
         self.newStuff = TW.collectCmdsEnvs()
@@ -40,7 +40,7 @@ class storageUnit:
         :returns: TODO
 
         """
-        open('files/rss.cmds','w',encoding='UTF-8').write(json.dumps(self.cmds))
+        open('files/cmds.json','w',encoding='UTF-8').write(json.dumps(self.cmds))
 
     def addTeXEnvs(self):
         newEnvs = self.newStuff[1]
@@ -55,10 +55,47 @@ class storageUnit:
         self.envs[env]['endcode']=endCode
 
     def writeEnvs(self):
-        open('files/rss.envs','w',encoding='UTF-8').write(json.dumps(self.envs))
+        open('files/envs.json','w',encoding='UTF-8').write(json.dumps(self.envs))
 
     def returnCmds(self):
         return self.cmds
 
     def returnEnvs(self):
         return self.envs
+
+class feedManager:
+    def __init__(self):
+       self.feeds = json.loads(open('files/blogs.json','r',encoding='UTF-8').read())
+
+    def addFeed(self, name,link):
+        """TODO: Docstring for addFeed.
+
+        :name: TODO
+        :link: TODO
+        :returns: TODO
+
+        """
+        self.feeds[name]=link
+
+    def removeFeed(self, name):
+        """TODO: Docstring for removeFeed.
+
+        :name: TODO
+        :returns: TODO
+
+        """
+        del(self.feeds[name])
+
+    def returnFeeds(self):
+        """TODO: Docstring for returnFeeds.
+        :returns: TODO
+
+        """
+        return self.feeds
+
+    def writeFeeds(self):
+        """TODO: Docstring for writeFeeds.
+        :returns: TODO
+
+        """
+        open('files/blogs.json','w',encoding='UTF-8').write(json.dumps(self.feeds))

@@ -1,18 +1,8 @@
-from __future__ import print_function, unicode_literals
-from PyInquirer import prompt
+import writesections as ws
 
-questions=[
-        {
-        "type":"input",
-        "name":"cmd",
-        "message":"What LaTeX Command Would you like for the entries title?"
-            },
-        {
+def main():
+    ws.makeSections()
+    ws.makePackage()
 
-        "type":"input",
-        "name":"author",
-        "message":"What LaTeX Command Would you like for the entries author?"
-            },
-        ]
-code = prompt(questions)
-print(code)
+if __name__=="__main__":
+    main()
