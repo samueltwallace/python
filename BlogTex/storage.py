@@ -16,7 +16,7 @@ class storageUnit:
         except:
             self.envs = {}
         self.newStuff = TW.collectCmdsEnvs()
-    def addTeXCmds():
+    def addTeXCmds(self):
         newCmds = self.newStuff[0]
         existingCmdNames = self.cmds.keys()
         newCmdNames = newCmds.keys()
@@ -24,7 +24,7 @@ class storageUnit:
             if cmd not in existingCmdNames:
                 self.cmds[cmd] = newCmds[cmd]
 
-    def addCmdCode(cmd,code):
+    def addCmdCode(self,cmd,code):
         """TODO: Docstring for addCmd.
 
         :cmd: TODO
