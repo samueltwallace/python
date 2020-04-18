@@ -16,16 +16,10 @@ def displayCmdInterface():
         if codes[cmd]!='':
             s.addTeXCmds(cmd,codes[cmd])
     envs = s.returnEnvs()
-    questions = [{
-                "type":"input",
-                "name":env+"Begin",
-                "message":"What code do you want for the begin code of environment  " + env + "?"
-                },{
-                    "type":"input",
-                    "name":env+"End",
-                    "message":"What code do you want for the end code of environment " + env + "?"
-                    }for env in envs.keys()
-            ]
+    questions = []
+    for env in envs.keys():
+        questions.append({'type':'input','name':env + 'BeginCode','message':'What code do you want for the begin code of the environment ' + env + '? '})
+        questions.append({'type':'input', 'name': env + 'EndCode','message':'What code do you want for the end code of the environment ' + env + '? '})
     codes = prompt(questions)
     for env in codes.keys():
         if codes[env]!='':
@@ -36,6 +30,20 @@ def displayCmdInterface():
 ###################################
 
 
-def buildFeedManagerInterface():
-    f = feedManger()
+def feedManagerInterface():
+    f = storage.feedManager()
+    adding = prompt([{"type": 'confirm', 'name':'adding','message':'Would you like to add a blog feed? '}])['adding']
+    while adding:
+        newFeed = prompt([{'type':'input','name':'feedName','message':'What is the name of the feed? '},{'type':'input','name':'feedLink','message': 'What\'s the link to the RSS feed for this blog?'}])
+        f.addFeed(newFeed['feedName'],newFeed['feedLink'])
+        adding = prompt([{"type": 'confirm', 'name':'adding','message':'Would you like to add another feed? '}])['adding']
+
+    removeing = prompt([{"type": 'confirm', 'name':'removeing','message':'Would you like to remove a blog feed? '}])['removeing']
+    while removeing:
+        newFeed = prompt([{'type':'input','name':'feedName','message':'What is the name of the feed? '}])
+        f.removeFeed(newFeed['feedName'])
+        removeing = prompt([{"type": 'confirm', 'name':'removeing','message':'Would you like to remove another feed? '}])['removeing']
+        f.writeFeeds()
+
+
 

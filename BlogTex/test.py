@@ -1,8 +1,9 @@
-import writesections as ws
+import interface
+import json
 
 def main():
-    ws.makeSections()
-    ws.makePackage()
+    interface.feedManagerInterface()
+
 
 if __name__=="__main__":
     main()

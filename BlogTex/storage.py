@@ -15,9 +15,9 @@ class storageUnit:
             self.envs = json.loads(open('files/envs.json','r',encoding='UTF-8').read())
         except:
             self.envs = {}
-        self.newStuff = TW.collectCmdsEnvs()
+        self.newCmdsEnvs = TW.collectCmdsEnvs()
     def addTeXCmds(self):
-        newCmds = self.newStuff[0]
+        newCmds = self.newCmdsEnvs[0]
         existingCmdNames = self.cmds.keys()
         newCmdNames = newCmds.keys()
         for cmd in newCmds:
@@ -43,7 +43,7 @@ class storageUnit:
         open('files/cmds.json','w',encoding='UTF-8').write(json.dumps(self.cmds))
 
     def addTeXEnvs(self):
-        newEnvs = self.newStuff[1]
+        newEnvs = self.newCmdsEnvs[1]
         existingEnvNames = self.envs.keys()
         newEnvNames = newEnvs.keys()
         for env in newEnvs:
@@ -65,7 +65,10 @@ class storageUnit:
 
 class feedManager:
     def __init__(self):
-       self.feeds = json.loads(open('files/blogs.json','r',encoding='UTF-8').read())
+        try:
+            self.feeds = json.loads(open('files/blogs.json','r',encoding='UTF-8').read())
+        except:
+            self.feeds = {}
 
     def addFeed(self, name,link):
         """TODO: Docstring for addFeed.
