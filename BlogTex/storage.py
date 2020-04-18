@@ -51,8 +51,8 @@ class storageUnit:
                 self.envs[env]=newEnvs[env]
 
     def addEnvCode(self,env,beginCode,endCode):
-        self.envs[env]['begincode'] = beginCode
-        self.envs[env]['endcode']=endCode
+        self.envs[env]['beginCode'] = beginCode
+        self.envs[env]['endCode']=endCode
 
     def writeEnvs(self):
         open('files/envs.json','w',encoding='UTF-8').write(json.dumps(self.envs))

@@ -1,8 +1,9 @@
 import interface
 import json
+import writesections as ws
 
 def main():
-    interface.feedManagerInterface()
+    ws.makePackage()
 
 
 if __name__=="__main__":

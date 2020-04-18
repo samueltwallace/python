@@ -68,5 +68,5 @@ def collectCmdsEnvs():
     nargs = {cmd[0]:{'nargs':len(finder.findall(cmd[1])), 'code':'\ignorespaces'} for cmd in cmds}
     envs = re.findall(r'\\begin\{(?P<env>\w+)\}',wholeTeX)
     envs = list(set(envs))
-    envs = {env: {'begincode':'','endcode':''} for env in envs}
+    envs = {env: {'beginCode':'','endCode':''} for env in envs}
     return (nargs,envs)

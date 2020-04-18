@@ -8,14 +8,15 @@ def displayCmdInterface():
     questions = [{
                 "type":"input",
                 "name":cmd,
-                "message":"What code do you want for the command " + cmd + "? It takes " + cmds[cmd]['nargs'] + " arguments: "
+                "message":"What code do you want for the command " + cmd + "? It takes " + str(cmds[cmd]['nargs']) + " arguments (leave blank for no action): "
                 } for cmd in cmds.keys()
             ]
     codes = prompt(questions)
     for cmd in codes.keys():
         if codes[cmd]!='':
-            s.addTeXCmds(cmd,codes[cmd])
+            s.addCmdCode(cmd,codes[cmd])
     envs = s.returnEnvs()
+    s.addTeXEnvs()
     questions = []
     for env in envs.keys():
         questions.append({'type':'input','name':env + 'BeginCode','message':'What code do you want for the begin code of the environment ' + env + '? '})
@@ -23,7 +24,10 @@ def displayCmdInterface():
     codes = prompt(questions)
     for env in codes.keys():
         if codes[env]!='':
-            s.addEnvCode(env,codes[env][0],codes[env][1])
+            s.addEnvCode(env,codes[env]['beginCode'],codes[env]['endCode'])
+
+    s.writeCmds()
+    s.writeEnvs()
 
 ###################################
 ##         TODO: CHECK THIS!     ##
@@ -43,7 +47,8 @@ def feedManagerInterface():
         newFeed = prompt([{'type':'input','name':'feedName','message':'What is the name of the feed? '}])
         f.removeFeed(newFeed['feedName'])
         removeing = prompt([{"type": 'confirm', 'name':'removeing','message':'Would you like to remove another feed? '}])['removeing']
-        f.writeFeeds()
+
+    f.writeFeeds()
 
 
 
