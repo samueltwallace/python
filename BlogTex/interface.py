@@ -1,5 +1,5 @@
 import storage
-from PyInquirer import prompt
+from PyInquirer import *
 
 def displayCmdInterface():
     s = storage.storageUnit()
@@ -29,9 +29,6 @@ def displayCmdInterface():
     s.writeCmds()
     s.writeEnvs()
 
-###################################
-##         TODO: CHECK THIS!     ##
-###################################
 
 
 def feedManagerInterface():
