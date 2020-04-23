@@ -1,5 +1,5 @@
 import storage
-from PyInquirer import *
+from PyInquirer import prompt
 
 def displayCmdInterface():
     s = storage.storageUnit()
