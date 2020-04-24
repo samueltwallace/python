@@ -1,2 +1,2 @@
 # python
-A repository for my python projects
+A repository for my python proof-of-concept programs.
