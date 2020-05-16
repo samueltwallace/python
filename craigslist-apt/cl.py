@@ -1,23 +1,26 @@
-import feedparser as fp
 import requests
 from lxml import html
 import json
 
-
-def collectInfo():
-    infoList = []
-    url = "https://chicago.craigslist.org/search/apa?format=rss"
+def collectInfo(entryUrl):
     fields = ["mapaddress", "shared-line-bubble", "attrgroup"]
+    info = {'url':entryUrl}
+    page = requests.get(entryUrl)
+    pageTree = html.fromstring(page.content)
+    for field in fields:
+        info[field]= pageTree.xpath('//*[@class="' + field + '"]//*/text()')
+    return info
 
-    listings = fp.parse(url).entries
+def findUrls(url):
+    pageTree = html.fromstring(requests.get(url).content)
+    return pageTree.xpath('//a[@class="result-title hdrlnk"]/@href')
 
-    for entry in listings:
-        info = {}
-        info['title'] = entry.title
-        page = requests.get(entry.link)
-        pageTree = html.fromstring(page.content)
-        for field in fields:
-            info[field]= pageTree.xpath('//*[@class="' + field + '"]//*/text()')
-        infoList.append(info)
-    return infoList
+def collectEntries():
+    infoList = []
+    url = "https://chicago.craigslist.org/search/apa"
 
+    urls = []
+    urls += findUrls(url)
+    for i in range(1,25):
+       urls += findUrls(url + "?s=" + str(120*i)) 
+    return urls
